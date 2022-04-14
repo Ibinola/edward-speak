@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/video.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/sidebar.css" />
+    <link
+      rel="shortcut icon"
+      href="./icons/youtubefavicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="./icons/hamburger-menu.svg"
+          alt="hamburger-menu"
+        />
+
+        <img
+          class="youtube-logo"
+          src="./icons/youtube-logo.svg"
+          alt="youtube-logo"
+        />
+      </div>
+      <div class="middle-section">
+        <input class="search-box" type="text" placeholder="Search" />
+        <button class="search-btn">
+          <img class="search-icon" src="./icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-btn">
+          <img
+            class="voice-search-icon"
+            src="./icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="./icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img
+            class="youtube-apps-icon"
+            src="./icons/youtube-apps.svg"
+            alt=""
+          />
+          <div class="tooltip">Youtube apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="./icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications-count">10</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img
+          class="my-profile-icon"
+          src="./thumbnails/profile-imahe.jpg"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="./icons/sidebar-icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/sidebar-icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/sidebar-icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/sidebar-icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/sidebar-icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/sidebar-icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="vid-grid">
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/hq720.webp" alt="" />
+            <div class="vid-time">14:20</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/profile-imahe.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">The Harsh Truth About the GOAT Debate</p>
+              <p class="vid-author">Jxmmy Highroller</p>
+              <p class="vid-stats">1.8M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/hqdefault (5).webp"
+              alt=""
+            />
+            <div class="vid-time">10:00</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img class="profile-img" src="./thumbnails/unnamed.jpg" alt="" />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">
+                Why Cade Cunningham is The NBA Rookie Of The Year
+              </p>
+              <p class="vid-author">BBALLBREAKDOWN</p>
+              <p class="vid-stats">2.6K views &#183; 46 minutes ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/hqdefault (4).webp"
+              alt=""
+            />
+            <div class="vid-time">18:20</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img class="profile-img" src="./thumbnails/swish-id.jpg" alt="" />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">
+                Nike Hoop Summit 2022 | Full Game Highlights
+              </p>
+              <p class="vid-author">Swish</p>
+              <p class="vid-stats">550 views &#183; 37 minutes ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/hq720 (1).webp" alt="" />
+            <div class="vid-time">11:20</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/joma-tech-id.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">If Wolf of Wall Street were about crypto</p>
+              <p class="vid-author">Joma Tech</p>
+              <p class="vid-stats">217K views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnails/hq720 (2).webp" alt="" />
+            <div class="vid-time">14:00</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/kid-kyree.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">DAY IN THE LIFE OF A BASKETBALL PLAYER,..</p>
+              <p class="vid-author">Kidd Kyree</p>
+              <p class="vid-stats">1.7K views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/hqdefault (3).webp"
+              alt=""
+            />
+            <div class="vid-time">11:00</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/tina-huang.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">5 Unique Beginner Coding Projects!</p>
+              <p class="vid-author">Tina Huang</p>
+              <p class="vid-stats">358 views &#183; 14 minutes ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/internet-made-coder.webp"
+              alt=""
+            />
+            <div class="vid-time">9:20</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/internet-made-coder-profile-image.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">
+                How I'm Studying Data Structures & Algorithms
+              </p>
+              <p class="vid-author">Internet Made Coder</p>
+              <p class="vid-stats">2.1K views &#183; 8 hours ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/frying-pan-profile-image.webp"
+              alt=""
+            />
+            <div class="vid-time">13:00</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/frying-pan-profile-image.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">
+                Day in a life at the largest crypto company(as a software
+                engineer...)
+              </p>
+              <p class="vid-author">Frying Pan</p>
+              <p class="vid-stats">38K views &#183; 6 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/korty-eo-thumbnail.webp"
+              alt="korty-eo-thumbnail"
+            />
+            <div class="vid-time">8:00</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/korty-eo-profile-image.jpg"
+                alt="korty-eo-profile-image"
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">
+                I gave a stranger my video and he took care of it.
+              </p>
+              <p class="vid-author">korty eo</p>
+              <p class="vid-stats">28K views &#183; 7 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/aaron-crow-thumbnail.webp"
+              alt="aaron-crow-thumbnail"
+            />
+            <div class="vid-time">15:00</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/aoran-crow-profile-img.jpg"
+                alt="aoran-crow-profile-img"
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">Coding Interviews are STILL Broken</p>
+              <p class="vid-author">Aaron Crow</p>
+              <p class="vid-stats">698 views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/whats-in-my-backpackthumbnail.webp"
+              alt="whats-in-my-backpackthumbnail"
+            />
+            <div class="vid-time">16:00</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/whats-in-my-backpackprofileimahe.jpg"
+                alt="whats-in-my-backpackprofileimage"
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">What's in my backpack - 2022</p>
+              <p class="vid-author">Engineering with Utsav</p>
+              <p class="vid-stats">5.6K views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="./thumbnails/Kalle-halden-thumbnail.webp"
+              alt="Kalle-halden-thumbnail"
+            />
+            <div class="vid-time">9:20</div>
+          </div>
+          <div class="vid-details-grid">
+            <div class="channel-img">
+              <img
+                class="profile-img"
+                src="./thumbnails/Kalle-Halden-profile-image.jpg"
+                alt="Kalle-Halden-profile-image"
+              />
+            </div>
+
+            <div class="vid-info">
+              <p class="vid-title">
+                How I would learn to code (If I could start over)
+              </p>
+              <p class="vid-author">Kalle Hallden</p>
+              <p class="vid-stats">30K views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
